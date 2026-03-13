@@ -1,0 +1,151 @@
+[0.015s] Invoking command in '/home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_gazebo': AMENT_PREFIX_PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ:/opt/ros/humble LD_LIBRARY_PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/pierre/go2_ws/src/unitree-go2-ros2/champ/champ_gazebo -DCMAKE_INSTALL_PREFIX=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_gazebo
+[0.089s] -- The C compiler identification is GNU 11.4.0
+[0.159s] -- The CXX compiler identification is GNU 11.4.0
+[0.167s] -- Detecting C compiler ABI info
+[0.252s] -- Detecting C compiler ABI info - done
+[0.263s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.263s] -- Detecting C compile features
+[0.263s] -- Detecting C compile features - done
+[0.267s] -- Detecting CXX compiler ABI info
+[0.364s] -- Detecting CXX compiler ABI info - done
+[0.372s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.372s] -- Detecting CXX compile features
+[0.373s] -- Detecting CXX compile features - done
+[0.377s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.566s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.668s] -- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)
+[0.719s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.726s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.736s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.751s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.769s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.819s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.823s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.925s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.963s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.015s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.025s] -- Looking for pthread.h
+[1.115s] -- Looking for pthread.h - found
+[1.116s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.210s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.212s] -- Found Threads: TRUE  
+[1.274s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[1.311s] -- Found champ: 0.1.0 (/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ/share/champ/cmake)
+[1.312s] -- Found champ_msgs: 0.1.0 (/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/share/champ_msgs/cmake)
+[1.347s] -- Found gazebo_ros2_control: 0.4.10 (/opt/ros/humble/share/gazebo_ros2_control/cmake)
+[1.534s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[1.536s] -- Checking for module 'bullet>=2.82'
+[1.553s] --   Found bullet, version 3.05
+[1.694s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[1.762s] -- Found assimp: /usr/include (found version "5.2.0") 
+[1.791s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.844s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[1.869s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[1.881s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.891s] -- Searching for dependencies of ignition-math6
+[1.893s] -- Looking for OGRE...
+[1.893s] -- OGRE_PREFIX_WATCH changed.
+[1.903s] -- Checking for module 'OGRE'
+[1.924s] --   Found OGRE, version 1.9.0
+[1.981s] -- Found Ogre Ghadamon (1.9.0)
+[1.991s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[2.008s] -- Looking for OGRE_Paging...
+[2.018s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[2.019s] -- Looking for OGRE_Terrain...
+[2.027s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[2.027s] -- Looking for OGRE_Property...
+[2.037s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[2.037s] -- Looking for OGRE_RTShaderSystem...
+[2.045s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[2.045s] -- Looking for OGRE_Volume...
+[2.053s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[2.053s] -- Looking for OGRE_Overlay...
+[2.061s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[2.242s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.247s] -- Looking for ignition-transport8 -- found version 8.2.1
+[2.248s] -- Searching for dependencies of ignition-transport8
+[2.279s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[2.297s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[2.306s] -- Checking for module 'libzmq >= 4'
+[2.328s] --   Found libzmq , version 4.3.4
+[2.391s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[2.401s] -- Checking for module 'uuid'
+[2.423s] --   Found uuid, version 2.37.2
+[2.482s] -- Found UUID: TRUE  
+[2.486s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.487s] -- Searching for dependencies of ignition-msgs5
+[2.518s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.528s] -- Checking for module 'tinyxml2'
+[2.552s] --   Found tinyxml2, version 9.0.0
+[2.608s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.612s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.613s] -- Searching for dependencies of ignition-common3
+[2.614s] -- Looking for dlfcn.h - found
+[2.616s] -- Looking for libdl - found
+[2.618s] -- Found DL: TRUE  
+[2.639s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[2.640s] -- Searching for <ignition-common3> component [graphics]
+[2.644s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[2.646s] -- Searching for dependencies of ignition-common3-graphics
+[2.646s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.652s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[2.653s] -- Searching for dependencies of ignition-fuel_tools4
+[2.778s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[2.792s] -- Checking for module 'jsoncpp'
+[2.812s] --   Found jsoncpp, version 1.9.5
+[2.870s] -- Found JSONCPP: TRUE  
+[2.882s] -- Checking for module 'libzip'
+[2.901s] --   Found libzip, version 1.7.3
+[2.956s] -- Found ZIP: TRUE  
+[2.957s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.958s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.959s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.967s] -- Gazebo version: 11.10
+[2.968s] -- Checking for module 'tbb'
+[2.991s] --   Found tbb, version 2021.5.0
+[3.214s] -- Configuring done
+[3.275s] -- Generating done
+[3.287s] -- Build files have been written to: /home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_gazebo
+[3.305s] Invoked command in '/home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_gazebo' returned '0': AMENT_PREFIX_PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ:/opt/ros/humble LD_LIBRARY_PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/pierre/go2_ws/src/unitree-go2-ros2/champ/champ_gazebo -DCMAKE_INSTALL_PREFIX=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_gazebo
+[3.309s] Invoking command in '/home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_gazebo': AMENT_PREFIX_PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ:/opt/ros/humble LD_LIBRARY_PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_gazebo -- -j12 -l12
+[3.395s] [ 50%] [32mBuilding CXX object CMakeFiles/contact_sensor.dir/src/contact_sensor.cpp.o[0m
+[30.522s] [100%] [32m[1mLinking CXX executable contact_sensor[0m
+[32.284s] [100%] Built target contact_sensor
+[32.304s] Invoked command in '/home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_gazebo' returned '0': AMENT_PREFIX_PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ:/opt/ros/humble LD_LIBRARY_PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_gazebo -- -j12 -l12
+[32.307s] Invoking command in '/home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_gazebo': AMENT_PREFIX_PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ:/opt/ros/humble LD_LIBRARY_PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_gazebo
+[32.319s] -- Install configuration: ""
+[32.320s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_gazebo/bin/imu_sensor.py
+[32.320s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_gazebo/bin/odometry_tf.py
+[32.320s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_gazebo/bin/odometry.py
+[32.320s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_gazebo/lib/champ_gazebo/contact_sensor
+[32.324s] -- Set runtime path of "/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_gazebo/lib/champ_gazebo/contact_sensor" to ""
+[32.324s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_gazebo/share/champ_gazebo/launch
+[32.324s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_gazebo/share/champ_gazebo/launch/gazebo.launch.py
+[32.324s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_gazebo/share/champ_gazebo/launch/spawn_world.launch
+[32.324s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_gazebo/share/champ_gazebo/launch/spawn_robot.launch
+[32.325s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_gazebo/share/champ_gazebo/launch/gazebo.launch
+[32.325s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_gazebo/share/champ_gazebo/config
+[32.325s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_gazebo/share/champ_gazebo/config/gazebo.yaml
+[32.325s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_gazebo/share/champ_gazebo/config/ros_control.yaml
+[32.325s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_gazebo/share/champ_gazebo/worlds
+[32.326s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_gazebo/share/champ_gazebo/worlds/default.world
+[32.326s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_gazebo/share/champ_gazebo/worlds/playground.world
+[32.326s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_gazebo/share/champ_gazebo/worlds/outdoor.world
+[32.326s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_gazebo/share/ament_index/resource_index/package_run_dependencies/champ_gazebo
+[32.326s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_gazebo/share/ament_index/resource_index/parent_prefix_path/champ_gazebo
+[32.326s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_gazebo/share/champ_gazebo/environment/ament_prefix_path.sh
+[32.327s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_gazebo/share/champ_gazebo/environment/ament_prefix_path.dsv
+[32.327s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_gazebo/share/champ_gazebo/environment/path.sh
+[32.327s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_gazebo/share/champ_gazebo/environment/path.dsv
+[32.327s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_gazebo/share/champ_gazebo/local_setup.bash
+[32.327s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_gazebo/share/champ_gazebo/local_setup.sh
+[32.327s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_gazebo/share/champ_gazebo/local_setup.zsh
+[32.328s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_gazebo/share/champ_gazebo/local_setup.dsv
+[32.328s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_gazebo/share/champ_gazebo/package.dsv
+[32.328s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_gazebo/share/ament_index/resource_index/packages/champ_gazebo
+[32.328s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_gazebo/share/champ_gazebo/cmake/ament_cmake_export_include_directories-extras.cmake
+[32.328s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_gazebo/share/champ_gazebo/cmake/ament_cmake_export_dependencies-extras.cmake
+[32.328s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_gazebo/share/champ_gazebo/cmake/champ_gazeboConfig.cmake
+[32.328s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_gazebo/share/champ_gazebo/cmake/champ_gazeboConfig-version.cmake
+[32.329s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_gazebo/share/champ_gazebo/package.xml
+[32.332s] Invoked command in '/home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_gazebo' returned '0': AMENT_PREFIX_PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ:/opt/ros/humble LD_LIBRARY_PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_gazebo

@@ -1,0 +1,908 @@
+[0.073s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.073s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x73da050fd900>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x73da05276860>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x73da05276860>>, mixin_verb=('build',))
+[0.188s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.188s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.188s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.188s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.188s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.188s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.188s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/pierre/go2_ws/src/unitree-go2-ros2'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.196s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(champ) by extensions ['ignore', 'ignore_ament_install']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(champ) by extension 'ignore'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(champ) by extension 'ignore_ament_install'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(champ) by extensions ['colcon_pkg']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(champ) by extension 'colcon_pkg'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(champ) by extensions ['colcon_meta']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(champ) by extension 'colcon_meta'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(champ) by extensions ['ros']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(champ) by extension 'ros'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(champ) by extensions ['cmake', 'python']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(champ) by extension 'cmake'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(champ) by extension 'python'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(champ) by extensions ['python_setup_py']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(champ) by extension 'python_setup_py'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(champ/champ) by extensions ['ignore', 'ignore_ament_install']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(champ/champ) by extension 'ignore'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(champ/champ) by extension 'ignore_ament_install'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(champ/champ) by extensions ['colcon_pkg']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(champ/champ) by extension 'colcon_pkg'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(champ/champ) by extensions ['colcon_meta']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(champ/champ) by extension 'colcon_meta'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(champ/champ) by extensions ['ros']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(champ/champ) by extension 'ros'
+[0.200s] DEBUG:colcon.colcon_core.package_identification:Package 'champ/champ' with type 'ros.ament_cmake' and name 'champ'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(champ/champ_base) by extensions ['ignore', 'ignore_ament_install']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(champ/champ_base) by extension 'ignore'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(champ/champ_base) by extension 'ignore_ament_install'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(champ/champ_base) by extensions ['colcon_pkg']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(champ/champ_base) by extension 'colcon_pkg'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(champ/champ_base) by extensions ['colcon_meta']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(champ/champ_base) by extension 'colcon_meta'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(champ/champ_base) by extensions ['ros']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(champ/champ_base) by extension 'ros'
+[0.201s] DEBUG:colcon.colcon_core.package_identification:Package 'champ/champ_base' with type 'ros.ament_cmake' and name 'champ_base'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(champ/champ_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(champ/champ_bringup) by extension 'ignore'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(champ/champ_bringup) by extension 'ignore_ament_install'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(champ/champ_bringup) by extensions ['colcon_pkg']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(champ/champ_bringup) by extension 'colcon_pkg'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(champ/champ_bringup) by extensions ['colcon_meta']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(champ/champ_bringup) by extension 'colcon_meta'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(champ/champ_bringup) by extensions ['ros']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(champ/champ_bringup) by extension 'ros'
+[0.202s] DEBUG:colcon.colcon_core.package_identification:Package 'champ/champ_bringup' with type 'ros.ament_cmake' and name 'champ_bringup'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(champ/champ_config) by extensions ['ignore', 'ignore_ament_install']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(champ/champ_config) by extension 'ignore'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(champ/champ_config) by extension 'ignore_ament_install'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(champ/champ_config) by extensions ['colcon_pkg']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(champ/champ_config) by extension 'colcon_pkg'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(champ/champ_config) by extensions ['colcon_meta']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(champ/champ_config) by extension 'colcon_meta'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(champ/champ_config) by extensions ['ros']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(champ/champ_config) by extension 'ros'
+[0.203s] DEBUG:colcon.colcon_core.package_identification:Package 'champ/champ_config' with type 'ros.ament_cmake' and name 'champ_config'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(champ/champ_description) by extensions ['ignore', 'ignore_ament_install']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(champ/champ_description) by extension 'ignore'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(champ/champ_description) by extension 'ignore_ament_install'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(champ/champ_description) by extensions ['colcon_pkg']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(champ/champ_description) by extension 'colcon_pkg'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(champ/champ_description) by extensions ['colcon_meta']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(champ/champ_description) by extension 'colcon_meta'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(champ/champ_description) by extensions ['ros']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(champ/champ_description) by extension 'ros'
+[0.203s] DEBUG:colcon.colcon_core.package_identification:Package 'champ/champ_description' with type 'ros.ament_cmake' and name 'champ_description'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(champ/champ_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(champ/champ_gazebo) by extension 'ignore'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(champ/champ_gazebo) by extension 'ignore_ament_install'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(champ/champ_gazebo) by extensions ['colcon_pkg']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(champ/champ_gazebo) by extension 'colcon_pkg'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(champ/champ_gazebo) by extensions ['colcon_meta']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(champ/champ_gazebo) by extension 'colcon_meta'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(champ/champ_gazebo) by extensions ['ros']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(champ/champ_gazebo) by extension 'ros'
+[0.204s] DEBUG:colcon.colcon_core.package_identification:Package 'champ/champ_gazebo' with type 'ros.ament_cmake' and name 'champ_gazebo'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(champ/champ_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(champ/champ_msgs) by extension 'ignore'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(champ/champ_msgs) by extension 'ignore_ament_install'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(champ/champ_msgs) by extensions ['colcon_pkg']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(champ/champ_msgs) by extension 'colcon_pkg'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(champ/champ_msgs) by extensions ['colcon_meta']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(champ/champ_msgs) by extension 'colcon_meta'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(champ/champ_msgs) by extensions ['ros']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(champ/champ_msgs) by extension 'ros'
+[0.205s] DEBUG:colcon.colcon_core.package_identification:Package 'champ/champ_msgs' with type 'ros.ament_cmake' and name 'champ_msgs'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(champ/champ_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(champ/champ_navigation) by extension 'ignore'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(champ/champ_navigation) by extension 'ignore_ament_install'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(champ/champ_navigation) by extensions ['colcon_pkg']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(champ/champ_navigation) by extension 'colcon_pkg'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(champ/champ_navigation) by extensions ['colcon_meta']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(champ/champ_navigation) by extension 'colcon_meta'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(champ/champ_navigation) by extensions ['ros']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(champ/champ_navigation) by extension 'ros'
+[0.206s] DEBUG:colcon.colcon_core.package_identification:Package 'champ/champ_navigation' with type 'ros.ament_cmake' and name 'champ_navigation'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(champ/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(champ/docs) by extension 'ignore'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(champ/docs) by extension 'ignore_ament_install'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(champ/docs) by extensions ['colcon_pkg']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(champ/docs) by extension 'colcon_pkg'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(champ/docs) by extensions ['colcon_meta']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(champ/docs) by extension 'colcon_meta'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(champ/docs) by extensions ['ros']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(champ/docs) by extension 'ros'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(champ/docs) by extensions ['cmake', 'python']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(champ/docs) by extension 'cmake'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(champ/docs) by extension 'python'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(champ/docs) by extensions ['python_setup_py']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(champ/docs) by extension 'python_setup_py'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(champ/docs/images) by extensions ['ignore', 'ignore_ament_install']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(champ/docs/images) by extension 'ignore'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(champ/docs/images) by extension 'ignore_ament_install'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(champ/docs/images) by extensions ['colcon_pkg']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(champ/docs/images) by extension 'colcon_pkg'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(champ/docs/images) by extensions ['colcon_meta']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(champ/docs/images) by extension 'colcon_meta'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(champ/docs/images) by extensions ['ros']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(champ/docs/images) by extension 'ros'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(champ/docs/images) by extensions ['cmake', 'python']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(champ/docs/images) by extension 'cmake'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(champ/docs/images) by extension 'python'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(champ/docs/images) by extensions ['python_setup_py']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(champ/docs/images) by extension 'python_setup_py'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(champ_teleop) by extensions ['ignore', 'ignore_ament_install']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(champ_teleop) by extension 'ignore'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(champ_teleop) by extension 'ignore_ament_install'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(champ_teleop) by extensions ['colcon_pkg']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(champ_teleop) by extension 'colcon_pkg'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(champ_teleop) by extensions ['colcon_meta']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(champ_teleop) by extension 'colcon_meta'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(champ_teleop) by extensions ['ros']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(champ_teleop) by extension 'ros'
+[0.208s] DEBUG:colcon.colcon_core.package_identification:Package 'champ_teleop' with type 'ros.ament_cmake' and name 'champ_teleop'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(robots) by extensions ['ignore', 'ignore_ament_install']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(robots) by extension 'ignore'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(robots) by extension 'ignore_ament_install'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(robots) by extensions ['colcon_pkg']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(robots) by extension 'colcon_pkg'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(robots) by extensions ['colcon_meta']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(robots) by extension 'colcon_meta'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(robots) by extensions ['ros']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(robots) by extension 'ros'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(robots) by extensions ['cmake', 'python']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(robots) by extension 'cmake'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(robots) by extension 'python'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(robots) by extensions ['python_setup_py']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(robots) by extension 'python_setup_py'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(robots/configs) by extensions ['ignore', 'ignore_ament_install']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(robots/configs) by extension 'ignore'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(robots/configs) by extension 'ignore_ament_install'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(robots/configs) by extensions ['colcon_pkg']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(robots/configs) by extension 'colcon_pkg'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(robots/configs) by extensions ['colcon_meta']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(robots/configs) by extension 'colcon_meta'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(robots/configs) by extensions ['ros']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(robots/configs) by extension 'ros'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(robots/configs) by extensions ['cmake', 'python']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(robots/configs) by extension 'cmake'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(robots/configs) by extension 'python'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(robots/configs) by extensions ['python_setup_py']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(robots/configs) by extension 'python_setup_py'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(robots/configs/go2_config) by extensions ['ignore', 'ignore_ament_install']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(robots/configs/go2_config) by extension 'ignore'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(robots/configs/go2_config) by extension 'ignore_ament_install'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(robots/configs/go2_config) by extensions ['colcon_pkg']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(robots/configs/go2_config) by extension 'colcon_pkg'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(robots/configs/go2_config) by extensions ['colcon_meta']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(robots/configs/go2_config) by extension 'colcon_meta'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(robots/configs/go2_config) by extensions ['ros']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(robots/configs/go2_config) by extension 'ros'
+[0.209s] DEBUG:colcon.colcon_core.package_identification:Package 'robots/configs/go2_config' with type 'ros.ament_cmake' and name 'go2_config'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(robots/descriptions) by extensions ['ignore', 'ignore_ament_install']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(robots/descriptions) by extension 'ignore'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(robots/descriptions) by extension 'ignore_ament_install'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(robots/descriptions) by extensions ['colcon_pkg']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(robots/descriptions) by extension 'colcon_pkg'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(robots/descriptions) by extensions ['colcon_meta']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(robots/descriptions) by extension 'colcon_meta'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(robots/descriptions) by extensions ['ros']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(robots/descriptions) by extension 'ros'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(robots/descriptions) by extensions ['cmake', 'python']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(robots/descriptions) by extension 'cmake'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(robots/descriptions) by extension 'python'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(robots/descriptions) by extensions ['python_setup_py']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(robots/descriptions) by extension 'python_setup_py'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(robots/descriptions/go2_description) by extensions ['ignore', 'ignore_ament_install']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(robots/descriptions/go2_description) by extension 'ignore'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(robots/descriptions/go2_description) by extension 'ignore_ament_install'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(robots/descriptions/go2_description) by extensions ['colcon_pkg']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(robots/descriptions/go2_description) by extension 'colcon_pkg'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(robots/descriptions/go2_description) by extensions ['colcon_meta']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(robots/descriptions/go2_description) by extension 'colcon_meta'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(robots/descriptions/go2_description) by extensions ['ros']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(robots/descriptions/go2_description) by extension 'ros'
+[0.210s] DEBUG:colcon.colcon_core.package_identification:Package 'robots/descriptions/go2_description' with type 'ros.ament_cmake' and name 'go2_description'
+[0.210s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.210s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.210s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.210s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.210s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.234s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.234s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.236s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 411 installed packages in /opt/ros/humble
+[0.237s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'champ' build argument 'cmake_args' from command line to 'None'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'champ' build argument 'cmake_target' from command line to 'None'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'champ' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'champ' build argument 'cmake_clean_cache' from command line to 'False'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'champ' build argument 'cmake_clean_first' from command line to 'False'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'champ' build argument 'cmake_force_configure' from command line to 'False'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'champ' build argument 'ament_cmake_args' from command line to 'None'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'champ' build argument 'catkin_cmake_args' from command line to 'None'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'champ' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.272s] DEBUG:colcon.colcon_core.verb:Building package 'champ' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pierre/go2_ws/src/unitree-go2-ros2/build/champ', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ', 'merge_install': False, 'path': '/home/pierre/go2_ws/src/unitree-go2-ros2/champ/champ', 'symlink_install': False, 'test_result_base': None}
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'champ_config' build argument 'cmake_args' from command line to 'None'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'champ_config' build argument 'cmake_target' from command line to 'None'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'champ_config' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'champ_config' build argument 'cmake_clean_cache' from command line to 'False'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'champ_config' build argument 'cmake_clean_first' from command line to 'False'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'champ_config' build argument 'cmake_force_configure' from command line to 'False'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'champ_config' build argument 'ament_cmake_args' from command line to 'None'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'champ_config' build argument 'catkin_cmake_args' from command line to 'None'
+[0.272s] Level 5:colcon.colcon_core.verb:set package 'champ_config' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.272s] DEBUG:colcon.colcon_core.verb:Building package 'champ_config' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_config', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_config', 'merge_install': False, 'path': '/home/pierre/go2_ws/src/unitree-go2-ros2/champ/champ_config', 'symlink_install': False, 'test_result_base': None}
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'champ_description' build argument 'cmake_args' from command line to 'None'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'champ_description' build argument 'cmake_target' from command line to 'None'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'champ_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'champ_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'champ_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'champ_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'champ_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'champ_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'champ_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.273s] DEBUG:colcon.colcon_core.verb:Building package 'champ_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_description', 'merge_install': False, 'path': '/home/pierre/go2_ws/src/unitree-go2-ros2/champ/champ_description', 'symlink_install': False, 'test_result_base': None}
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'champ_msgs' build argument 'cmake_args' from command line to 'None'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'champ_msgs' build argument 'cmake_target' from command line to 'None'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'champ_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'champ_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'champ_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'champ_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'champ_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'champ_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'champ_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.273s] DEBUG:colcon.colcon_core.verb:Building package 'champ_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs', 'merge_install': False, 'path': '/home/pierre/go2_ws/src/unitree-go2-ros2/champ/champ_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'champ_navigation' build argument 'cmake_args' from command line to 'None'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'champ_navigation' build argument 'cmake_target' from command line to 'None'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'champ_navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'champ_navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'champ_navigation' build argument 'cmake_clean_first' from command line to 'False'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'champ_navigation' build argument 'cmake_force_configure' from command line to 'False'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'champ_navigation' build argument 'ament_cmake_args' from command line to 'None'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'champ_navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.273s] Level 5:colcon.colcon_core.verb:set package 'champ_navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.274s] DEBUG:colcon.colcon_core.verb:Building package 'champ_navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_navigation', 'merge_install': False, 'path': '/home/pierre/go2_ws/src/unitree-go2-ros2/champ/champ_navigation', 'symlink_install': False, 'test_result_base': None}
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'champ_teleop' build argument 'cmake_args' from command line to 'None'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'champ_teleop' build argument 'cmake_target' from command line to 'None'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'champ_teleop' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'champ_teleop' build argument 'cmake_clean_cache' from command line to 'False'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'champ_teleop' build argument 'cmake_clean_first' from command line to 'False'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'champ_teleop' build argument 'cmake_force_configure' from command line to 'False'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'champ_teleop' build argument 'ament_cmake_args' from command line to 'None'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'champ_teleop' build argument 'catkin_cmake_args' from command line to 'None'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'champ_teleop' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.274s] DEBUG:colcon.colcon_core.verb:Building package 'champ_teleop' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_teleop', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_teleop', 'merge_install': False, 'path': '/home/pierre/go2_ws/src/unitree-go2-ros2/champ_teleop', 'symlink_install': False, 'test_result_base': None}
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'go2_config' build argument 'cmake_args' from command line to 'None'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'go2_config' build argument 'cmake_target' from command line to 'None'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'go2_config' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'go2_config' build argument 'cmake_clean_cache' from command line to 'False'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'go2_config' build argument 'cmake_clean_first' from command line to 'False'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'go2_config' build argument 'cmake_force_configure' from command line to 'False'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'go2_config' build argument 'ament_cmake_args' from command line to 'None'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'go2_config' build argument 'catkin_cmake_args' from command line to 'None'
+[0.274s] Level 5:colcon.colcon_core.verb:set package 'go2_config' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.274s] DEBUG:colcon.colcon_core.verb:Building package 'go2_config' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pierre/go2_ws/src/unitree-go2-ros2/build/go2_config', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_config', 'merge_install': False, 'path': '/home/pierre/go2_ws/src/unitree-go2-ros2/robots/configs/go2_config', 'symlink_install': False, 'test_result_base': None}
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'go2_description' build argument 'cmake_args' from command line to 'None'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'go2_description' build argument 'cmake_target' from command line to 'None'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'go2_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'go2_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'go2_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'go2_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'go2_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'go2_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'go2_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.275s] DEBUG:colcon.colcon_core.verb:Building package 'go2_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pierre/go2_ws/src/unitree-go2-ros2/build/go2_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description', 'merge_install': False, 'path': '/home/pierre/go2_ws/src/unitree-go2-ros2/robots/descriptions/go2_description', 'symlink_install': False, 'test_result_base': None}
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'champ_base' build argument 'cmake_args' from command line to 'None'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'champ_base' build argument 'cmake_target' from command line to 'None'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'champ_base' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'champ_base' build argument 'cmake_clean_cache' from command line to 'False'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'champ_base' build argument 'cmake_clean_first' from command line to 'False'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'champ_base' build argument 'cmake_force_configure' from command line to 'False'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'champ_base' build argument 'ament_cmake_args' from command line to 'None'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'champ_base' build argument 'catkin_cmake_args' from command line to 'None'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'champ_base' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.275s] DEBUG:colcon.colcon_core.verb:Building package 'champ_base' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_base', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base', 'merge_install': False, 'path': '/home/pierre/go2_ws/src/unitree-go2-ros2/champ/champ_base', 'symlink_install': False, 'test_result_base': None}
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'champ_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'champ_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'champ_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'champ_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'champ_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'champ_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'champ_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'champ_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.275s] Level 5:colcon.colcon_core.verb:set package 'champ_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.275s] DEBUG:colcon.colcon_core.verb:Building package 'champ_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_gazebo', 'merge_install': False, 'path': '/home/pierre/go2_ws/src/unitree-go2-ros2/champ/champ_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'champ_bringup' build argument 'cmake_args' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'champ_bringup' build argument 'cmake_target' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'champ_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'champ_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'champ_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'champ_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'champ_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'champ_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.276s] Level 5:colcon.colcon_core.verb:set package 'champ_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.276s] DEBUG:colcon.colcon_core.verb:Building package 'champ_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_bringup', 'merge_install': False, 'path': '/home/pierre/go2_ws/src/unitree-go2-ros2/champ/champ_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.276s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.277s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.278s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pierre/go2_ws/src/unitree-go2-ros2/champ/champ' with build type 'ament_cmake'
+[0.278s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pierre/go2_ws/src/unitree-go2-ros2/champ/champ'
+[0.280s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.280s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.280s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.283s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pierre/go2_ws/src/unitree-go2-ros2/champ/champ_msgs' with build type 'ament_cmake'
+[0.283s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pierre/go2_ws/src/unitree-go2-ros2/champ/champ_msgs'
+[0.284s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.284s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.287s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pierre/go2_ws/src/unitree-go2-ros2/champ/champ_description' with build type 'ament_cmake'
+[0.287s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pierre/go2_ws/src/unitree-go2-ros2/champ/champ_description'
+[0.287s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.288s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.291s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pierre/go2_ws/src/unitree-go2-ros2/champ/champ_config' with build type 'ament_cmake'
+[0.292s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pierre/go2_ws/src/unitree-go2-ros2/champ/champ_config'
+[0.292s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.292s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.295s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pierre/go2_ws/src/unitree-go2-ros2/champ/champ_navigation' with build type 'ament_cmake'
+[0.296s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pierre/go2_ws/src/unitree-go2-ros2/champ/champ_navigation'
+[0.296s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.296s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.300s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pierre/go2_ws/src/unitree-go2-ros2/champ_teleop' with build type 'ament_cmake'
+[0.301s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pierre/go2_ws/src/unitree-go2-ros2/champ_teleop'
+[0.301s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.301s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.307s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pierre/go2_ws/src/unitree-go2-ros2/robots/configs/go2_config' with build type 'ament_cmake'
+[0.307s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pierre/go2_ws/src/unitree-go2-ros2/robots/configs/go2_config'
+[0.308s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.308s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.312s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pierre/go2_ws/src/unitree-go2-ros2/robots/descriptions/go2_description' with build type 'ament_cmake'
+[0.312s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pierre/go2_ws/src/unitree-go2-ros2/robots/descriptions/go2_description'
+[0.313s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.313s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.323s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pierre/go2_ws/src/unitree-go2-ros2/build/champ': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pierre/go2_ws/src/unitree-go2-ros2/champ/champ -DCMAKE_INSTALL_PREFIX=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ
+[0.326s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pierre/go2_ws/src/unitree-go2-ros2/champ/champ_msgs -DCMAKE_INSTALL_PREFIX=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs
+[0.328s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pierre/go2_ws/src/unitree-go2-ros2/champ/champ_description -DCMAKE_INSTALL_PREFIX=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_description
+[0.331s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_config': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pierre/go2_ws/src/unitree-go2-ros2/champ/champ_config -DCMAKE_INSTALL_PREFIX=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_config
+[0.334s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_navigation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pierre/go2_ws/src/unitree-go2-ros2/champ/champ_navigation -DCMAKE_INSTALL_PREFIX=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_navigation
+[0.341s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_teleop': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pierre/go2_ws/src/unitree-go2-ros2/champ_teleop -DCMAKE_INSTALL_PREFIX=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_teleop
+[0.351s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pierre/go2_ws/src/unitree-go2-ros2/build/go2_config': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pierre/go2_ws/src/unitree-go2-ros2/robots/configs/go2_config -DCMAKE_INSTALL_PREFIX=/home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_config
+[0.360s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pierre/go2_ws/src/unitree-go2-ros2/build/go2_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pierre/go2_ws/src/unitree-go2-ros2/robots/descriptions/go2_description -DCMAKE_INSTALL_PREFIX=/home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description
+[1.652s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pierre/go2_ws/src/unitree-go2-ros2/champ/champ_description -DCMAKE_INSTALL_PREFIX=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_description
+[1.657s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_description -- -j12 -l12
+[1.681s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_config' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pierre/go2_ws/src/unitree-go2-ros2/champ/champ_config -DCMAKE_INSTALL_PREFIX=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_config
+[1.685s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_config': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_config -- -j12 -l12
+[1.738s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_description -- -j12 -l12
+[1.759s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_description
+[1.762s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_teleop' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pierre/go2_ws/src/unitree-go2-ros2/champ_teleop -DCMAKE_INSTALL_PREFIX=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_teleop
+[1.767s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_teleop': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_teleop -- -j12 -l12
+[1.768s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_navigation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pierre/go2_ws/src/unitree-go2-ros2/champ/champ_navigation -DCMAKE_INSTALL_PREFIX=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_navigation
+[1.771s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_navigation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_navigation -- -j12 -l12
+[1.772s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_config' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_config -- -j12 -l12
+[1.781s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_config': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_config
+[1.788s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(champ_description)
+[1.794s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_description
+[1.804s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_description' for CMake module files
+[1.808s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_description' for CMake config files
+[1.811s] Level 1:colcon.colcon_core.shell:create_environment_hook('champ_description', 'cmake_prefix_path')
+[1.812s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_description/share/champ_description/hook/cmake_prefix_path.ps1'
+[1.814s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_description/share/champ_description/hook/cmake_prefix_path.dsv'
+[1.815s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_description/share/champ_description/hook/cmake_prefix_path.sh'
+[1.817s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_description/bin'
+[1.817s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_description/lib/pkgconfig/champ_description.pc'
+[1.818s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_description/lib/python3.10/site-packages'
+[1.819s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_description/bin'
+[1.819s] INFO:colcon.colcon_core.shell:Creating package script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_description/share/champ_description/package.ps1'
+[1.821s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_description/share/champ_description/package.dsv'
+[1.822s] INFO:colcon.colcon_core.shell:Creating package script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_description/share/champ_description/package.sh'
+[1.824s] INFO:colcon.colcon_core.shell:Creating package script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_description/share/champ_description/package.bash'
+[1.826s] INFO:colcon.colcon_core.shell:Creating package script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_description/share/champ_description/package.zsh'
+[1.828s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_description/share/colcon-core/packages/champ_description)
+[1.829s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(champ_description)
+[1.830s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_description' for CMake module files
+[1.832s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_description' for CMake config files
+[1.832s] Level 1:colcon.colcon_core.shell:create_environment_hook('champ_description', 'cmake_prefix_path')
+[1.833s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_description/share/champ_description/hook/cmake_prefix_path.ps1'
+[1.834s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_description/share/champ_description/hook/cmake_prefix_path.dsv'
+[1.835s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_description/share/champ_description/hook/cmake_prefix_path.sh'
+[1.836s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_description/bin'
+[1.837s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_description/lib/pkgconfig/champ_description.pc'
+[1.837s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_description/lib/python3.10/site-packages'
+[1.838s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_description/bin'
+[1.839s] INFO:colcon.colcon_core.shell:Creating package script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_description/share/champ_description/package.ps1'
+[1.840s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_description/share/champ_description/package.dsv'
+[1.841s] INFO:colcon.colcon_core.shell:Creating package script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_description/share/champ_description/package.sh'
+[1.842s] INFO:colcon.colcon_core.shell:Creating package script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_description/share/champ_description/package.bash'
+[1.842s] INFO:colcon.colcon_core.shell:Creating package script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_description/share/champ_description/package.zsh'
+[1.843s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_description/share/colcon-core/packages/champ_description)
+[1.849s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pierre/go2_ws/src/unitree-go2-ros2/build/go2_config' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pierre/go2_ws/src/unitree-go2-ros2/robots/configs/go2_config -DCMAKE_INSTALL_PREFIX=/home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_config
+[1.850s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(champ_config)
+[1.850s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_config' for CMake module files
+[1.850s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pierre/go2_ws/src/unitree-go2-ros2/build/go2_config': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pierre/go2_ws/src/unitree-go2-ros2/build/go2_config -- -j12 -l12
+[1.851s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_config' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_config
+[1.851s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_config' for CMake config files
+[1.851s] Level 1:colcon.colcon_core.shell:create_environment_hook('champ_config', 'cmake_prefix_path')
+[1.852s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_config/share/champ_config/hook/cmake_prefix_path.ps1'
+[1.853s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_config/share/champ_config/hook/cmake_prefix_path.dsv'
+[1.853s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_config/share/champ_config/hook/cmake_prefix_path.sh'
+[1.854s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_config/bin'
+[1.854s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_config/lib/pkgconfig/champ_config.pc'
+[1.854s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_config/lib/python3.10/site-packages'
+[1.855s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_config/bin'
+[1.856s] INFO:colcon.colcon_core.shell:Creating package script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_config/share/champ_config/package.ps1'
+[1.857s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_config/share/champ_config/package.dsv'
+[1.857s] INFO:colcon.colcon_core.shell:Creating package script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_config/share/champ_config/package.sh'
+[1.858s] INFO:colcon.colcon_core.shell:Creating package script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_config/share/champ_config/package.bash'
+[1.858s] INFO:colcon.colcon_core.shell:Creating package script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_config/share/champ_config/package.zsh'
+[1.859s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_config/share/colcon-core/packages/champ_config)
+[1.860s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(champ_config)
+[1.860s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_config' for CMake module files
+[1.861s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_config' for CMake config files
+[1.861s] Level 1:colcon.colcon_core.shell:create_environment_hook('champ_config', 'cmake_prefix_path')
+[1.861s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_config/share/champ_config/hook/cmake_prefix_path.ps1'
+[1.862s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_config/share/champ_config/hook/cmake_prefix_path.dsv'
+[1.862s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_config/share/champ_config/hook/cmake_prefix_path.sh'
+[1.863s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_config/bin'
+[1.863s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_config/lib/pkgconfig/champ_config.pc'
+[1.863s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_config/lib/python3.10/site-packages'
+[1.863s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_config/bin'
+[1.864s] INFO:colcon.colcon_core.shell:Creating package script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_config/share/champ_config/package.ps1'
+[1.865s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_config/share/champ_config/package.dsv'
+[1.865s] INFO:colcon.colcon_core.shell:Creating package script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_config/share/champ_config/package.sh'
+[1.866s] INFO:colcon.colcon_core.shell:Creating package script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_config/share/champ_config/package.bash'
+[1.867s] INFO:colcon.colcon_core.shell:Creating package script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_config/share/champ_config/package.zsh'
+[1.868s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_config/share/colcon-core/packages/champ_config)
+[1.876s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pierre/go2_ws/src/unitree-go2-ros2/build/go2_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pierre/go2_ws/src/unitree-go2-ros2/robots/descriptions/go2_description -DCMAKE_INSTALL_PREFIX=/home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description
+[1.877s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pierre/go2_ws/src/unitree-go2-ros2/build/go2_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pierre/go2_ws/src/unitree-go2-ros2/build/go2_description -- -j12 -l12
+[1.878s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_teleop' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_teleop -- -j12 -l12
+[1.878s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_teleop': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_teleop
+[1.879s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_navigation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_navigation -- -j12 -l12
+[1.880s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_navigation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_navigation
+[1.902s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(champ_teleop)
+[1.903s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_teleop' for CMake module files
+[1.904s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_teleop' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_teleop
+[1.905s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_teleop' for CMake config files
+[1.906s] Level 1:colcon.colcon_core.shell:create_environment_hook('champ_teleop', 'cmake_prefix_path')
+[1.906s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_teleop/share/champ_teleop/hook/cmake_prefix_path.ps1'
+[1.907s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_teleop/share/champ_teleop/hook/cmake_prefix_path.dsv'
+[1.908s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_teleop/share/champ_teleop/hook/cmake_prefix_path.sh'
+[1.909s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_teleop/lib'
+[1.910s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_teleop/bin'
+[1.910s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_teleop/lib/pkgconfig/champ_teleop.pc'
+[1.911s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_teleop/lib/python3.10/site-packages'
+[1.912s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_teleop/bin'
+[1.912s] INFO:colcon.colcon_core.shell:Creating package script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_teleop/share/champ_teleop/package.ps1'
+[1.913s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_teleop/share/champ_teleop/package.dsv'
+[1.914s] INFO:colcon.colcon_core.shell:Creating package script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_teleop/share/champ_teleop/package.sh'
+[1.916s] INFO:colcon.colcon_core.shell:Creating package script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_teleop/share/champ_teleop/package.bash'
+[1.917s] INFO:colcon.colcon_core.shell:Creating package script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_teleop/share/champ_teleop/package.zsh'
+[1.918s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_teleop/share/colcon-core/packages/champ_teleop)
+[1.919s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(champ_teleop)
+[1.919s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_teleop' for CMake module files
+[1.921s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_teleop' for CMake config files
+[1.921s] Level 1:colcon.colcon_core.shell:create_environment_hook('champ_teleop', 'cmake_prefix_path')
+[1.922s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_teleop/share/champ_teleop/hook/cmake_prefix_path.ps1'
+[1.922s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_teleop/share/champ_teleop/hook/cmake_prefix_path.dsv'
+[1.923s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_teleop/share/champ_teleop/hook/cmake_prefix_path.sh'
+[1.924s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_teleop/lib'
+[1.924s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_teleop/bin'
+[1.924s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_teleop/lib/pkgconfig/champ_teleop.pc'
+[1.925s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_teleop/lib/python3.10/site-packages'
+[1.925s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_teleop/bin'
+[1.926s] INFO:colcon.colcon_core.shell:Creating package script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_teleop/share/champ_teleop/package.ps1'
+[1.927s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_teleop/share/champ_teleop/package.dsv'
+[1.927s] INFO:colcon.colcon_core.shell:Creating package script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_teleop/share/champ_teleop/package.sh'
+[1.929s] INFO:colcon.colcon_core.shell:Creating package script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_teleop/share/champ_teleop/package.bash'
+[1.929s] INFO:colcon.colcon_core.shell:Creating package script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_teleop/share/champ_teleop/package.zsh'
+[1.930s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_teleop/share/colcon-core/packages/champ_teleop)
+[1.932s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(champ_navigation)
+[1.933s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_navigation' for CMake module files
+[1.935s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_navigation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_navigation
+[1.935s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_navigation' for CMake config files
+[1.936s] Level 1:colcon.colcon_core.shell:create_environment_hook('champ_navigation', 'cmake_prefix_path')
+[1.936s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_navigation/share/champ_navigation/hook/cmake_prefix_path.ps1'
+[1.937s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_navigation/share/champ_navigation/hook/cmake_prefix_path.dsv'
+[1.938s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_navigation/share/champ_navigation/hook/cmake_prefix_path.sh'
+[1.938s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_navigation/bin'
+[1.939s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_navigation/lib/pkgconfig/champ_navigation.pc'
+[1.939s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_navigation/lib/python3.10/site-packages'
+[1.940s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_navigation/bin'
+[1.940s] INFO:colcon.colcon_core.shell:Creating package script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_navigation/share/champ_navigation/package.ps1'
+[1.941s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_navigation/share/champ_navigation/package.dsv'
+[1.941s] INFO:colcon.colcon_core.shell:Creating package script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_navigation/share/champ_navigation/package.sh'
+[1.941s] INFO:colcon.colcon_core.shell:Creating package script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_navigation/share/champ_navigation/package.bash'
+[1.942s] INFO:colcon.colcon_core.shell:Creating package script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_navigation/share/champ_navigation/package.zsh'
+[1.942s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_navigation/share/colcon-core/packages/champ_navigation)
+[1.943s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(champ_navigation)
+[1.943s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_navigation' for CMake module files
+[1.943s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_navigation' for CMake config files
+[1.943s] Level 1:colcon.colcon_core.shell:create_environment_hook('champ_navigation', 'cmake_prefix_path')
+[1.944s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_navigation/share/champ_navigation/hook/cmake_prefix_path.ps1'
+[1.944s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_navigation/share/champ_navigation/hook/cmake_prefix_path.dsv'
+[1.945s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_navigation/share/champ_navigation/hook/cmake_prefix_path.sh'
+[1.945s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_navigation/bin'
+[1.945s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_navigation/lib/pkgconfig/champ_navigation.pc'
+[1.946s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_navigation/lib/python3.10/site-packages'
+[1.946s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_navigation/bin'
+[1.947s] INFO:colcon.colcon_core.shell:Creating package script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_navigation/share/champ_navigation/package.ps1'
+[1.948s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_navigation/share/champ_navigation/package.dsv'
+[1.948s] INFO:colcon.colcon_core.shell:Creating package script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_navigation/share/champ_navigation/package.sh'
+[1.949s] INFO:colcon.colcon_core.shell:Creating package script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_navigation/share/champ_navigation/package.bash'
+[1.950s] INFO:colcon.colcon_core.shell:Creating package script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_navigation/share/champ_navigation/package.zsh'
+[1.951s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_navigation/share/colcon-core/packages/champ_navigation)
+[1.953s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pierre/go2_ws/src/unitree-go2-ros2/build/go2_config' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pierre/go2_ws/src/unitree-go2-ros2/build/go2_config -- -j12 -l12
+[1.956s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pierre/go2_ws/src/unitree-go2-ros2/build/go2_config': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pierre/go2_ws/src/unitree-go2-ros2/build/go2_config
+[1.959s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pierre/go2_ws/src/unitree-go2-ros2/build/go2_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pierre/go2_ws/src/unitree-go2-ros2/build/go2_description -- -j12 -l12
+[1.961s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pierre/go2_ws/src/unitree-go2-ros2/build/go2_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pierre/go2_ws/src/unitree-go2-ros2/build/go2_description
+[1.980s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(go2_config)
+[1.981s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_config' for CMake module files
+[1.983s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pierre/go2_ws/src/unitree-go2-ros2/build/go2_config' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pierre/go2_ws/src/unitree-go2-ros2/build/go2_config
+[1.985s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_config' for CMake config files
+[1.985s] Level 1:colcon.colcon_core.shell:create_environment_hook('go2_config', 'cmake_prefix_path')
+[1.986s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_config/share/go2_config/hook/cmake_prefix_path.ps1'
+[1.987s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_config/share/go2_config/hook/cmake_prefix_path.dsv'
+[1.988s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_config/share/go2_config/hook/cmake_prefix_path.sh'
+[1.989s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_config/bin'
+[1.990s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_config/lib/pkgconfig/go2_config.pc'
+[1.990s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_config/lib/python3.10/site-packages'
+[1.991s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_config/bin'
+[1.991s] INFO:colcon.colcon_core.shell:Creating package script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_config/share/go2_config/package.ps1'
+[1.992s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_config/share/go2_config/package.dsv'
+[1.993s] INFO:colcon.colcon_core.shell:Creating package script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_config/share/go2_config/package.sh'
+[1.994s] INFO:colcon.colcon_core.shell:Creating package script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_config/share/go2_config/package.bash'
+[1.995s] INFO:colcon.colcon_core.shell:Creating package script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_config/share/go2_config/package.zsh'
+[1.996s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_config/share/colcon-core/packages/go2_config)
+[1.997s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(go2_config)
+[1.998s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_config' for CMake module files
+[1.999s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_config' for CMake config files
+[1.999s] Level 1:colcon.colcon_core.shell:create_environment_hook('go2_config', 'cmake_prefix_path')
+[2.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_config/share/go2_config/hook/cmake_prefix_path.ps1'
+[2.001s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_config/share/go2_config/hook/cmake_prefix_path.dsv'
+[2.002s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_config/share/go2_config/hook/cmake_prefix_path.sh'
+[2.004s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_config/bin'
+[2.004s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_config/lib/pkgconfig/go2_config.pc'
+[2.004s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_config/lib/python3.10/site-packages'
+[2.005s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_config/bin'
+[2.006s] INFO:colcon.colcon_core.shell:Creating package script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_config/share/go2_config/package.ps1'
+[2.008s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_config/share/go2_config/package.dsv'
+[2.009s] INFO:colcon.colcon_core.shell:Creating package script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_config/share/go2_config/package.sh'
+[2.010s] INFO:colcon.colcon_core.shell:Creating package script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_config/share/go2_config/package.bash'
+[2.010s] INFO:colcon.colcon_core.shell:Creating package script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_config/share/go2_config/package.zsh'
+[2.011s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_config/share/colcon-core/packages/go2_config)
+[2.045s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(go2_description)
+[2.046s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description' for CMake module files
+[2.046s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pierre/go2_ws/src/unitree-go2-ros2/build/go2_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pierre/go2_ws/src/unitree-go2-ros2/build/go2_description
+[2.047s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description' for CMake config files
+[2.047s] Level 1:colcon.colcon_core.shell:create_environment_hook('go2_description', 'cmake_prefix_path')
+[2.048s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/hook/cmake_prefix_path.ps1'
+[2.049s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/hook/cmake_prefix_path.dsv'
+[2.050s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/hook/cmake_prefix_path.sh'
+[2.051s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/bin'
+[2.051s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/lib/pkgconfig/go2_description.pc'
+[2.051s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/lib/python3.10/site-packages'
+[2.052s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/bin'
+[2.053s] INFO:colcon.colcon_core.shell:Creating package script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/package.ps1'
+[2.055s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/package.dsv'
+[2.055s] INFO:colcon.colcon_core.shell:Creating package script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/package.sh'
+[2.056s] INFO:colcon.colcon_core.shell:Creating package script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/package.bash'
+[2.057s] INFO:colcon.colcon_core.shell:Creating package script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/package.zsh'
+[2.057s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/colcon-core/packages/go2_description)
+[2.058s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(go2_description)
+[2.059s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description' for CMake module files
+[2.059s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description' for CMake config files
+[2.060s] Level 1:colcon.colcon_core.shell:create_environment_hook('go2_description', 'cmake_prefix_path')
+[2.060s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/hook/cmake_prefix_path.ps1'
+[2.061s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/hook/cmake_prefix_path.dsv'
+[2.061s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/hook/cmake_prefix_path.sh'
+[2.062s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/bin'
+[2.062s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/lib/pkgconfig/go2_description.pc'
+[2.062s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/lib/python3.10/site-packages'
+[2.063s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/bin'
+[2.063s] INFO:colcon.colcon_core.shell:Creating package script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/package.ps1'
+[2.064s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/package.dsv'
+[2.065s] INFO:colcon.colcon_core.shell:Creating package script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/package.sh'
+[2.066s] INFO:colcon.colcon_core.shell:Creating package script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/package.bash'
+[2.066s] INFO:colcon.colcon_core.shell:Creating package script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/package.zsh'
+[2.067s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/colcon-core/packages/go2_description)
+[2.388s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pierre/go2_ws/src/unitree-go2-ros2/build/champ' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pierre/go2_ws/src/unitree-go2-ros2/champ/champ -DCMAKE_INSTALL_PREFIX=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ
+[2.391s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pierre/go2_ws/src/unitree-go2-ros2/build/champ': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pierre/go2_ws/src/unitree-go2-ros2/build/champ -- -j12 -l12
+[2.442s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pierre/go2_ws/src/unitree-go2-ros2/build/champ' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pierre/go2_ws/src/unitree-go2-ros2/build/champ -- -j12 -l12
+[2.444s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pierre/go2_ws/src/unitree-go2-ros2/build/champ': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pierre/go2_ws/src/unitree-go2-ros2/build/champ
+[2.460s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(champ)
+[2.460s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ' for CMake module files
+[2.461s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pierre/go2_ws/src/unitree-go2-ros2/build/champ' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pierre/go2_ws/src/unitree-go2-ros2/build/champ
+[2.462s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ' for CMake config files
+[2.463s] Level 1:colcon.colcon_core.shell:create_environment_hook('champ', 'cmake_prefix_path')
+[2.463s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ/share/champ/hook/cmake_prefix_path.ps1'
+[2.464s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ/share/champ/hook/cmake_prefix_path.dsv'
+[2.465s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ/share/champ/hook/cmake_prefix_path.sh'
+[2.466s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ/bin'
+[2.466s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ/lib/pkgconfig/champ.pc'
+[2.466s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ/lib/python3.10/site-packages'
+[2.467s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ/bin'
+[2.467s] INFO:colcon.colcon_core.shell:Creating package script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ/share/champ/package.ps1'
+[2.468s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ/share/champ/package.dsv'
+[2.469s] INFO:colcon.colcon_core.shell:Creating package script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ/share/champ/package.sh'
+[2.469s] INFO:colcon.colcon_core.shell:Creating package script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ/share/champ/package.bash'
+[2.470s] INFO:colcon.colcon_core.shell:Creating package script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ/share/champ/package.zsh'
+[2.471s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ/share/colcon-core/packages/champ)
+[2.472s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(champ)
+[2.472s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ' for CMake module files
+[2.472s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ' for CMake config files
+[2.473s] Level 1:colcon.colcon_core.shell:create_environment_hook('champ', 'cmake_prefix_path')
+[2.473s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ/share/champ/hook/cmake_prefix_path.ps1'
+[2.474s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ/share/champ/hook/cmake_prefix_path.dsv'
+[2.474s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ/share/champ/hook/cmake_prefix_path.sh'
+[2.475s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ/bin'
+[2.475s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ/lib/pkgconfig/champ.pc'
+[2.475s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ/lib/python3.10/site-packages'
+[2.475s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ/bin'
+[2.476s] INFO:colcon.colcon_core.shell:Creating package script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ/share/champ/package.ps1'
+[2.476s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ/share/champ/package.dsv'
+[2.476s] INFO:colcon.colcon_core.shell:Creating package script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ/share/champ/package.sh'
+[2.477s] INFO:colcon.colcon_core.shell:Creating package script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ/share/champ/package.bash'
+[2.477s] INFO:colcon.colcon_core.shell:Creating package script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ/share/champ/package.zsh'
+[2.478s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ/share/colcon-core/packages/champ)
+[3.071s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pierre/go2_ws/src/unitree-go2-ros2/champ/champ_msgs -DCMAKE_INSTALL_PREFIX=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs
+[3.074s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_msgs -- -j12 -l12
+[10.187s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_msgs -- -j12 -l12
+[10.189s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_msgs
+[10.281s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(champ_msgs)
+[10.282s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_msgs
+[10.282s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs' for CMake module files
+[10.283s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs' for CMake config files
+[10.284s] Level 1:colcon.colcon_core.shell:create_environment_hook('champ_msgs', 'cmake_prefix_path')
+[10.285s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/share/champ_msgs/hook/cmake_prefix_path.ps1'
+[10.285s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/share/champ_msgs/hook/cmake_prefix_path.dsv'
+[10.286s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/share/champ_msgs/hook/cmake_prefix_path.sh'
+[10.286s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/lib'
+[10.286s] Level 1:colcon.colcon_core.shell:create_environment_hook('champ_msgs', 'ld_library_path_lib')
+[10.286s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/share/champ_msgs/hook/ld_library_path_lib.ps1'
+[10.287s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/share/champ_msgs/hook/ld_library_path_lib.dsv'
+[10.287s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/share/champ_msgs/hook/ld_library_path_lib.sh'
+[10.288s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/bin'
+[10.288s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/lib/pkgconfig/champ_msgs.pc'
+[10.288s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/lib/python3.10/site-packages'
+[10.288s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/bin'
+[10.289s] INFO:colcon.colcon_core.shell:Creating package script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/share/champ_msgs/package.ps1'
+[10.289s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/share/champ_msgs/package.dsv'
+[10.290s] INFO:colcon.colcon_core.shell:Creating package script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/share/champ_msgs/package.sh'
+[10.290s] INFO:colcon.colcon_core.shell:Creating package script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/share/champ_msgs/package.bash'
+[10.291s] INFO:colcon.colcon_core.shell:Creating package script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/share/champ_msgs/package.zsh'
+[10.291s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/share/colcon-core/packages/champ_msgs)
+[10.292s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(champ_msgs)
+[10.292s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs' for CMake module files
+[10.292s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs' for CMake config files
+[10.293s] Level 1:colcon.colcon_core.shell:create_environment_hook('champ_msgs', 'cmake_prefix_path')
+[10.293s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/share/champ_msgs/hook/cmake_prefix_path.ps1'
+[10.293s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/share/champ_msgs/hook/cmake_prefix_path.dsv'
+[10.293s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/share/champ_msgs/hook/cmake_prefix_path.sh'
+[10.294s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/lib'
+[10.294s] Level 1:colcon.colcon_core.shell:create_environment_hook('champ_msgs', 'ld_library_path_lib')
+[10.294s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/share/champ_msgs/hook/ld_library_path_lib.ps1'
+[10.294s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/share/champ_msgs/hook/ld_library_path_lib.dsv'
+[10.294s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/share/champ_msgs/hook/ld_library_path_lib.sh'
+[10.295s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/bin'
+[10.295s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/lib/pkgconfig/champ_msgs.pc'
+[10.295s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/lib/python3.10/site-packages'
+[10.295s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/bin'
+[10.295s] INFO:colcon.colcon_core.shell:Creating package script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/share/champ_msgs/package.ps1'
+[10.296s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/share/champ_msgs/package.dsv'
+[10.298s] INFO:colcon.colcon_core.shell:Creating package script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/share/champ_msgs/package.sh'
+[10.299s] INFO:colcon.colcon_core.shell:Creating package script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/share/champ_msgs/package.bash'
+[10.299s] INFO:colcon.colcon_core.shell:Creating package script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/share/champ_msgs/package.zsh'
+[10.300s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/share/colcon-core/packages/champ_msgs)
+[10.300s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pierre/go2_ws/src/unitree-go2-ros2/champ/champ_base' with build type 'ament_cmake'
+[10.300s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pierre/go2_ws/src/unitree-go2-ros2/champ/champ_base'
+[10.301s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.301s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.304s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pierre/go2_ws/src/unitree-go2-ros2/champ/champ_gazebo' with build type 'ament_cmake'
+[10.304s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pierre/go2_ws/src/unitree-go2-ros2/champ/champ_gazebo'
+[10.305s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.305s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.315s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_base': AMENT_PREFIX_PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ:/opt/ros/humble LD_LIBRARY_PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/pierre/go2_ws/src/unitree-go2-ros2/champ/champ_base -DCMAKE_INSTALL_PREFIX=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base
+[10.321s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_gazebo': AMENT_PREFIX_PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ:/opt/ros/humble LD_LIBRARY_PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/pierre/go2_ws/src/unitree-go2-ros2/champ/champ_gazebo -DCMAKE_INSTALL_PREFIX=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_gazebo
+[12.038s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_base' returned '0': AMENT_PREFIX_PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ:/opt/ros/humble LD_LIBRARY_PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/pierre/go2_ws/src/unitree-go2-ros2/champ/champ_base -DCMAKE_INSTALL_PREFIX=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base
+[12.039s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_base': AMENT_PREFIX_PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ:/opt/ros/humble LD_LIBRARY_PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_base -- -j12 -l12
+[13.611s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_gazebo' returned '0': AMENT_PREFIX_PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ:/opt/ros/humble LD_LIBRARY_PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/pierre/go2_ws/src/unitree-go2-ros2/champ/champ_gazebo -DCMAKE_INSTALL_PREFIX=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_gazebo
+[13.614s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_gazebo': AMENT_PREFIX_PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ:/opt/ros/humble LD_LIBRARY_PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_gazebo -- -j12 -l12
+[42.609s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_gazebo' returned '0': AMENT_PREFIX_PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ:/opt/ros/humble LD_LIBRARY_PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_gazebo -- -j12 -l12
+[42.613s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_gazebo': AMENT_PREFIX_PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ:/opt/ros/humble LD_LIBRARY_PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_gazebo
+[42.636s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(champ_gazebo)
+[42.637s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_gazebo' for CMake module files
+[42.637s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_gazebo' returned '0': AMENT_PREFIX_PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ:/opt/ros/humble LD_LIBRARY_PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_gazebo
+[42.638s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_gazebo' for CMake config files
+[42.639s] Level 1:colcon.colcon_core.shell:create_environment_hook('champ_gazebo', 'cmake_prefix_path')
+[42.639s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_gazebo/share/champ_gazebo/hook/cmake_prefix_path.ps1'
+[42.640s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_gazebo/share/champ_gazebo/hook/cmake_prefix_path.dsv'
+[42.641s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_gazebo/share/champ_gazebo/hook/cmake_prefix_path.sh'
+[42.642s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_gazebo/lib'
+[42.642s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_gazebo/bin'
+[42.642s] Level 1:colcon.colcon_core.shell:create_environment_hook('champ_gazebo', 'path')
+[42.642s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_gazebo/share/champ_gazebo/hook/path.ps1'
+[42.643s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_gazebo/share/champ_gazebo/hook/path.dsv'
+[42.644s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_gazebo/share/champ_gazebo/hook/path.sh'
+[42.644s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_gazebo/lib/pkgconfig/champ_gazebo.pc'
+[42.645s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_gazebo/lib/python3.10/site-packages'
+[42.646s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_gazebo/bin'
+[42.646s] Level 1:colcon.colcon_core.shell:create_environment_hook('champ_gazebo', 'pythonscriptspath')
+[42.646s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_gazebo/share/champ_gazebo/hook/pythonscriptspath.ps1'
+[42.647s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_gazebo/share/champ_gazebo/hook/pythonscriptspath.dsv'
+[42.647s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_gazebo/share/champ_gazebo/hook/pythonscriptspath.sh'
+[42.648s] INFO:colcon.colcon_core.shell:Creating package script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_gazebo/share/champ_gazebo/package.ps1'
+[42.649s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_gazebo/share/champ_gazebo/package.dsv'
+[42.650s] INFO:colcon.colcon_core.shell:Creating package script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_gazebo/share/champ_gazebo/package.sh'
+[42.651s] INFO:colcon.colcon_core.shell:Creating package script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_gazebo/share/champ_gazebo/package.bash'
+[42.651s] INFO:colcon.colcon_core.shell:Creating package script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_gazebo/share/champ_gazebo/package.zsh'
+[42.652s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_gazebo/share/colcon-core/packages/champ_gazebo)
+[42.653s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(champ_gazebo)
+[42.653s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_gazebo' for CMake module files
+[42.654s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_gazebo' for CMake config files
+[42.655s] Level 1:colcon.colcon_core.shell:create_environment_hook('champ_gazebo', 'cmake_prefix_path')
+[42.655s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_gazebo/share/champ_gazebo/hook/cmake_prefix_path.ps1'
+[42.656s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_gazebo/share/champ_gazebo/hook/cmake_prefix_path.dsv'
+[42.656s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_gazebo/share/champ_gazebo/hook/cmake_prefix_path.sh'
+[42.657s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_gazebo/lib'
+[42.657s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_gazebo/bin'
+[42.658s] Level 1:colcon.colcon_core.shell:create_environment_hook('champ_gazebo', 'path')
+[42.658s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_gazebo/share/champ_gazebo/hook/path.ps1'
+[42.659s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_gazebo/share/champ_gazebo/hook/path.dsv'
+[42.659s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_gazebo/share/champ_gazebo/hook/path.sh'
+[42.660s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_gazebo/lib/pkgconfig/champ_gazebo.pc'
+[42.660s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_gazebo/lib/python3.10/site-packages'
+[42.661s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_gazebo/bin'
+[42.661s] Level 1:colcon.colcon_core.shell:create_environment_hook('champ_gazebo', 'pythonscriptspath')
+[42.662s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_gazebo/share/champ_gazebo/hook/pythonscriptspath.ps1'
+[42.662s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_gazebo/share/champ_gazebo/hook/pythonscriptspath.dsv'
+[42.663s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_gazebo/share/champ_gazebo/hook/pythonscriptspath.sh'
+[42.664s] INFO:colcon.colcon_core.shell:Creating package script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_gazebo/share/champ_gazebo/package.ps1'
+[42.666s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_gazebo/share/champ_gazebo/package.dsv'
+[42.667s] INFO:colcon.colcon_core.shell:Creating package script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_gazebo/share/champ_gazebo/package.sh'
+[42.668s] INFO:colcon.colcon_core.shell:Creating package script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_gazebo/share/champ_gazebo/package.bash'
+[42.669s] INFO:colcon.colcon_core.shell:Creating package script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_gazebo/share/champ_gazebo/package.zsh'
+[42.670s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_gazebo/share/colcon-core/packages/champ_gazebo)
+[48.381s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_base' returned '0': AMENT_PREFIX_PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ:/opt/ros/humble LD_LIBRARY_PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_base -- -j12 -l12
+[48.383s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_base': AMENT_PREFIX_PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ:/opt/ros/humble LD_LIBRARY_PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_base
+[48.423s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(champ_base)
+[48.424s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base' for CMake module files
+[48.424s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_base' returned '0': AMENT_PREFIX_PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ:/opt/ros/humble LD_LIBRARY_PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_base
+[48.425s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base' for CMake config files
+[48.425s] Level 1:colcon.colcon_core.shell:create_environment_hook('champ_base', 'cmake_prefix_path')
+[48.426s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base/share/champ_base/hook/cmake_prefix_path.ps1'
+[48.427s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base/share/champ_base/hook/cmake_prefix_path.dsv'
+[48.427s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base/share/champ_base/hook/cmake_prefix_path.sh'
+[48.428s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base/lib'
+[48.428s] Level 1:colcon.colcon_core.shell:create_environment_hook('champ_base', 'ld_library_path_lib')
+[48.428s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base/share/champ_base/hook/ld_library_path_lib.ps1'
+[48.429s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base/share/champ_base/hook/ld_library_path_lib.dsv'
+[48.429s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base/share/champ_base/hook/ld_library_path_lib.sh'
+[48.430s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base/bin'
+[48.430s] Level 1:colcon.colcon_core.shell:create_environment_hook('champ_base', 'path')
+[48.430s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base/share/champ_base/hook/path.ps1'
+[48.430s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base/share/champ_base/hook/path.dsv'
+[48.431s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base/share/champ_base/hook/path.sh'
+[48.431s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base/lib/pkgconfig/champ_base.pc'
+[48.432s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base/lib/python3.10/site-packages'
+[48.432s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base/bin'
+[48.432s] Level 1:colcon.colcon_core.shell:create_environment_hook('champ_base', 'pythonscriptspath')
+[48.433s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base/share/champ_base/hook/pythonscriptspath.ps1'
+[48.433s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base/share/champ_base/hook/pythonscriptspath.dsv'
+[48.434s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base/share/champ_base/hook/pythonscriptspath.sh'
+[48.435s] INFO:colcon.colcon_core.shell:Creating package script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base/share/champ_base/package.ps1'
+[48.435s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base/share/champ_base/package.dsv'
+[48.436s] INFO:colcon.colcon_core.shell:Creating package script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base/share/champ_base/package.sh'
+[48.436s] INFO:colcon.colcon_core.shell:Creating package script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base/share/champ_base/package.bash'
+[48.436s] INFO:colcon.colcon_core.shell:Creating package script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base/share/champ_base/package.zsh'
+[48.436s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base/share/colcon-core/packages/champ_base)
+[48.437s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(champ_base)
+[48.438s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base' for CMake module files
+[48.438s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base' for CMake config files
+[48.438s] Level 1:colcon.colcon_core.shell:create_environment_hook('champ_base', 'cmake_prefix_path')
+[48.438s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base/share/champ_base/hook/cmake_prefix_path.ps1'
+[48.439s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base/share/champ_base/hook/cmake_prefix_path.dsv'
+[48.439s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base/share/champ_base/hook/cmake_prefix_path.sh'
+[48.439s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base/lib'
+[48.440s] Level 1:colcon.colcon_core.shell:create_environment_hook('champ_base', 'ld_library_path_lib')
+[48.440s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base/share/champ_base/hook/ld_library_path_lib.ps1'
+[48.440s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base/share/champ_base/hook/ld_library_path_lib.dsv'
+[48.440s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base/share/champ_base/hook/ld_library_path_lib.sh'
+[48.440s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base/bin'
+[48.441s] Level 1:colcon.colcon_core.shell:create_environment_hook('champ_base', 'path')
+[48.441s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base/share/champ_base/hook/path.ps1'
+[48.441s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base/share/champ_base/hook/path.dsv'
+[48.441s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base/share/champ_base/hook/path.sh'
+[48.441s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base/lib/pkgconfig/champ_base.pc'
+[48.442s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base/lib/python3.10/site-packages'
+[48.442s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base/bin'
+[48.442s] Level 1:colcon.colcon_core.shell:create_environment_hook('champ_base', 'pythonscriptspath')
+[48.442s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base/share/champ_base/hook/pythonscriptspath.ps1'
+[48.443s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base/share/champ_base/hook/pythonscriptspath.dsv'
+[48.443s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base/share/champ_base/hook/pythonscriptspath.sh'
+[48.443s] INFO:colcon.colcon_core.shell:Creating package script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base/share/champ_base/package.ps1'
+[48.444s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base/share/champ_base/package.dsv'
+[48.444s] INFO:colcon.colcon_core.shell:Creating package script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base/share/champ_base/package.sh'
+[48.445s] INFO:colcon.colcon_core.shell:Creating package script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base/share/champ_base/package.bash'
+[48.445s] INFO:colcon.colcon_core.shell:Creating package script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base/share/champ_base/package.zsh'
+[48.445s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base/share/colcon-core/packages/champ_base)
+[48.446s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pierre/go2_ws/src/unitree-go2-ros2/champ/champ_bringup' with build type 'ament_cmake'
+[48.446s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pierre/go2_ws/src/unitree-go2-ros2/champ/champ_bringup'
+[48.446s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[48.446s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[48.460s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_bringup': AMENT_PREFIX_PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_description:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_description:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ:/opt/ros/humble LD_LIBRARY_PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base/lib:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base/bin:${PATH} PYTHONPATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/pierre/go2_ws/src/unitree-go2-ros2/champ/champ_bringup -DCMAKE_INSTALL_PREFIX=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_bringup
+[49.218s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_bringup' returned '0': AMENT_PREFIX_PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_description:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_description:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ:/opt/ros/humble LD_LIBRARY_PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base/lib:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base/bin:${PATH} PYTHONPATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/pierre/go2_ws/src/unitree-go2-ros2/champ/champ_bringup -DCMAKE_INSTALL_PREFIX=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_bringup
+[49.223s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_bringup': AMENT_PREFIX_PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_description:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_description:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ:/opt/ros/humble LD_LIBRARY_PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base/lib:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base/bin:${PATH} PYTHONPATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_bringup -- -j12 -l12
+[49.628s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_bringup' returned '0': AMENT_PREFIX_PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_description:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_description:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ:/opt/ros/humble LD_LIBRARY_PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base/lib:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base/bin:${PATH} PYTHONPATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_bringup -- -j12 -l12
+[49.630s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_bringup': AMENT_PREFIX_PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_description:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_description:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ:/opt/ros/humble LD_LIBRARY_PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base/lib:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base/bin:${PATH} PYTHONPATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_bringup
+[49.697s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(champ_bringup)
+[49.698s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_bringup' for CMake module files
+[49.699s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_bringup' returned '0': AMENT_PREFIX_PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_description:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_description:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ:/opt/ros/humble LD_LIBRARY_PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base/lib:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base/bin:${PATH} PYTHONPATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_bringup
+[49.700s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_bringup' for CMake config files
+[49.700s] Level 1:colcon.colcon_core.shell:create_environment_hook('champ_bringup', 'cmake_prefix_path')
+[49.701s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_bringup/share/champ_bringup/hook/cmake_prefix_path.ps1'
+[49.701s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_bringup/share/champ_bringup/hook/cmake_prefix_path.dsv'
+[49.702s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_bringup/share/champ_bringup/hook/cmake_prefix_path.sh'
+[49.702s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_bringup/lib'
+[49.703s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_bringup/bin'
+[49.703s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_bringup/lib/pkgconfig/champ_bringup.pc'
+[49.703s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_bringup/lib/python3.10/site-packages'
+[49.704s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_bringup/bin'
+[49.704s] INFO:colcon.colcon_core.shell:Creating package script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_bringup/share/champ_bringup/package.ps1'
+[49.705s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_bringup/share/champ_bringup/package.dsv'
+[49.705s] INFO:colcon.colcon_core.shell:Creating package script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_bringup/share/champ_bringup/package.sh'
+[49.706s] INFO:colcon.colcon_core.shell:Creating package script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_bringup/share/champ_bringup/package.bash'
+[49.706s] INFO:colcon.colcon_core.shell:Creating package script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_bringup/share/champ_bringup/package.zsh'
+[49.707s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_bringup/share/colcon-core/packages/champ_bringup)
+[49.708s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(champ_bringup)
+[49.708s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_bringup' for CMake module files
+[49.709s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_bringup' for CMake config files
+[49.709s] Level 1:colcon.colcon_core.shell:create_environment_hook('champ_bringup', 'cmake_prefix_path')
+[49.709s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_bringup/share/champ_bringup/hook/cmake_prefix_path.ps1'
+[49.710s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_bringup/share/champ_bringup/hook/cmake_prefix_path.dsv'
+[49.711s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_bringup/share/champ_bringup/hook/cmake_prefix_path.sh'
+[49.711s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_bringup/lib'
+[49.711s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_bringup/bin'
+[49.711s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_bringup/lib/pkgconfig/champ_bringup.pc'
+[49.712s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_bringup/lib/python3.10/site-packages'
+[49.712s] Level 1:colcon.colcon_core.environment:checking '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_bringup/bin'
+[49.713s] INFO:colcon.colcon_core.shell:Creating package script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_bringup/share/champ_bringup/package.ps1'
+[49.713s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_bringup/share/champ_bringup/package.dsv'
+[49.714s] INFO:colcon.colcon_core.shell:Creating package script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_bringup/share/champ_bringup/package.sh'
+[49.715s] INFO:colcon.colcon_core.shell:Creating package script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_bringup/share/champ_bringup/package.bash'
+[49.715s] INFO:colcon.colcon_core.shell:Creating package script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_bringup/share/champ_bringup/package.zsh'
+[49.716s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_bringup/share/colcon-core/packages/champ_bringup)
+[49.716s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[49.717s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[49.717s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[49.718s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[49.727s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[49.728s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[49.728s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[49.748s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[49.749s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/local_setup.ps1'
+[49.750s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pierre/go2_ws/src/unitree-go2-ros2/install/_local_setup_util_ps1.py'
+[49.754s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/setup.ps1'
+[49.755s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/local_setup.sh'
+[49.756s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pierre/go2_ws/src/unitree-go2-ros2/install/_local_setup_util_sh.py'
+[49.757s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/setup.sh'
+[49.758s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/local_setup.bash'
+[49.759s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/setup.bash'
+[49.760s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/local_setup.zsh'
+[49.760s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pierre/go2_ws/src/unitree-go2-ros2/install/setup.zsh'

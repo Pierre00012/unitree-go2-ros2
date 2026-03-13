@@ -1,0 +1,110 @@
+[0.047s] Invoking command in '/home/pierre/go2_ws/src/unitree-go2-ros2/build/go2_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pierre/go2_ws/src/unitree-go2-ros2/robots/descriptions/go2_description -DCMAKE_INSTALL_PREFIX=/home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description
+[0.168s] -- The C compiler identification is GNU 11.4.0
+[0.314s] -- The CXX compiler identification is GNU 11.4.0
+[0.332s] -- Detecting C compiler ABI info
+[0.446s] -- Detecting C compiler ABI info - done
+[0.465s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.467s] -- Detecting C compile features
+[0.468s] -- Detecting C compile features - done
+[0.477s] -- Detecting CXX compiler ABI info
+[0.650s] -- Detecting CXX compiler ABI info - done
+[0.674s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.675s] -- Detecting CXX compile features
+[0.676s] -- Detecting CXX compile features - done
+[0.683s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.074s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.306s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.480s] -- Configuring done
+[1.480s] -- Generating done
+[1.483s] -- Build files have been written to: /home/pierre/go2_ws/src/unitree-go2-ros2/build/go2_description
+[1.563s] Invoked command in '/home/pierre/go2_ws/src/unitree-go2-ros2/build/go2_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pierre/go2_ws/src/unitree-go2-ros2/robots/descriptions/go2_description -DCMAKE_INSTALL_PREFIX=/home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description
+[1.564s] Invoking command in '/home/pierre/go2_ws/src/unitree-go2-ros2/build/go2_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pierre/go2_ws/src/unitree-go2-ros2/build/go2_description -- -j12 -l12
+[1.646s] Invoked command in '/home/pierre/go2_ws/src/unitree-go2-ros2/build/go2_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pierre/go2_ws/src/unitree-go2-ros2/build/go2_description -- -j12 -l12
+[1.649s] Invoking command in '/home/pierre/go2_ws/src/unitree-go2-ros2/build/go2_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pierre/go2_ws/src/unitree-go2-ros2/build/go2_description
+[1.663s] -- Install configuration: ""
+[1.664s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/config
+[1.665s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/config/_robot_control.yaml
+[1.665s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/config/_joint_names_go2_description.yaml
+[1.665s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/config/ros_control
+[1.665s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/config/ros_control/ros_control.yaml
+[1.666s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/dae
+[1.667s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/dae/thigh_mirror.dae
+[1.671s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/dae/base.dae
+[1.682s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/dae/calf_mirror.dae
+[1.684s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/dae/thigh.dae
+[1.689s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/dae/hip.dae
+[1.693s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/dae/calf.dae
+[1.694s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/dae/foot.dae
+[1.695s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/launch
+[1.695s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/launch/description.launch.py
+[1.695s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/meshes
+[1.695s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/meshes/thigh_mirror.dae
+[1.698s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/meshes/calf_mirror.dae
+[1.700s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/meshes/trunk.dae
+[1.711s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/meshes/thigh.dae
+[1.715s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/meshes/hokuyo.dae
+[1.715s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/meshes/hip.dae
+[1.720s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/meshes/calf.dae
+[1.721s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/meshes/foot.dae
+[1.721s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/urdf
+[1.721s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/urdf/go2_description.urdf
+[1.722s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/urdf/.history
+[1.722s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/urdf/.history/go2_description_20230904182446.urdf
+[1.722s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905112749.urdf
+[1.722s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905115215.urdf
+[1.723s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905115021.urdf
+[1.723s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905114819.urdf
+[1.723s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/urdf/.history/go2_description_20230904193711.urdf
+[1.724s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905115226.urdf
+[1.724s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/urdf/.history/go2_description_20230904144240.urdf
+[1.724s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905115040.urdf
+[1.724s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905113840.urdf
+[1.724s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/urdf/.history/go2_description_20230904193628.urdf
+[1.725s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905112143.urdf
+[1.725s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/urdf/.history/go2_description_20230904193644.urdf
+[1.725s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905115022.urdf
+[1.725s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905113839.urdf
+[1.725s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905114759.urdf
+[1.725s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905113059.urdf
+[1.725s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905112752.urdf
+[1.725s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905113755.urdf
+[1.726s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905113000.urdf
+[1.726s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905115313.urdf
+[1.726s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/urdf/.history/go2_description_20230904193705.urdf
+[1.726s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905115300.urdf
+[1.726s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905112047.urdf
+[1.726s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905112735.urdf
+[1.727s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905113633.urdf
+[1.727s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/urdf/.history/go2_description_20230904193710.urdf
+[1.727s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/urdf/.history/go2_description_20230904193653.urdf
+[1.727s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905112944.urdf
+[1.727s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905113754.urdf
+[1.727s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905112217.urdf
+[1.727s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/urdf/Normal_collision_model.png
+[1.728s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/urdf/Amended_collision_model.png
+[1.728s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/xacro
+[1.728s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/xacro/leg.xacro
+[1.728s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/xacro/velodyne.xacro
+[1.728s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/xacro/robot_VLP.xacro
+[1.728s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/xacro/const.xacro
+[1.728s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/xacro/laser.xacro
+[1.729s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/xacro/transmission.xacro
+[1.729s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/xacro/robot.xacro
+[1.729s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/xacro/gazebo.xacro
+[1.729s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/xacro/materials.xacro
+[1.729s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/ament_index/resource_index/package_run_dependencies/go2_description
+[1.729s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/ament_index/resource_index/parent_prefix_path/go2_description
+[1.729s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/environment/ament_prefix_path.sh
+[1.729s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/environment/ament_prefix_path.dsv
+[1.730s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/environment/path.sh
+[1.730s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/environment/path.dsv
+[1.730s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/local_setup.bash
+[1.730s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/local_setup.sh
+[1.730s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/local_setup.zsh
+[1.730s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/local_setup.dsv
+[1.730s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/package.dsv
+[1.730s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/ament_index/resource_index/packages/go2_description
+[1.731s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/cmake/go2_descriptionConfig.cmake
+[1.731s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/cmake/go2_descriptionConfig-version.cmake
+[1.731s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/go2_description/share/go2_description/package.xml
+[1.733s] Invoked command in '/home/pierre/go2_ws/src/unitree-go2-ros2/build/go2_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pierre/go2_ws/src/unitree-go2-ros2/build/go2_description

@@ -1,0 +1,81 @@
+[0.014s] Invoking command in '/home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_bringup': AMENT_PREFIX_PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_description:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_description:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ:/opt/ros/humble LD_LIBRARY_PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base/lib:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base/bin:${PATH} PYTHONPATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/pierre/go2_ws/src/unitree-go2-ros2/champ/champ_bringup -DCMAKE_INSTALL_PREFIX=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_bringup
+[0.072s] -- The C compiler identification is GNU 11.4.0
+[0.126s] -- The CXX compiler identification is GNU 11.4.0
+[0.133s] -- Detecting C compiler ABI info
+[0.210s] -- Detecting C compiler ABI info - done
+[0.216s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.217s] -- Detecting C compile features
+[0.217s] -- Detecting C compile features - done
+[0.220s] -- Detecting CXX compiler ABI info
+[0.301s] -- Detecting CXX compiler ABI info - done
+[0.310s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.311s] -- Detecting CXX compile features
+[0.311s] -- Detecting CXX compile features - done
+[0.314s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.461s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.753s] -- Configuring done
+[0.759s] -- Generating done
+[0.763s] -- Build files have been written to: /home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_bringup
+[0.771s] Invoked command in '/home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_bringup' returned '0': AMENT_PREFIX_PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_description:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_description:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ:/opt/ros/humble LD_LIBRARY_PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base/lib:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base/bin:${PATH} PYTHONPATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/pierre/go2_ws/src/unitree-go2-ros2/champ/champ_bringup -DCMAKE_INSTALL_PREFIX=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_bringup
+[0.775s] Invoking command in '/home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_bringup': AMENT_PREFIX_PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_description:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_description:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ:/opt/ros/humble LD_LIBRARY_PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base/lib:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base/bin:${PATH} PYTHONPATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_bringup -- -j12 -l12
+[0.868s] Built target ament_cmake_python_copy_champ_bringup
+[1.135s] running egg_info
+[1.135s] creating champ_bringup.egg-info
+[1.136s] writing champ_bringup.egg-info/PKG-INFO
+[1.136s] writing dependency_links to champ_bringup.egg-info/dependency_links.txt
+[1.136s] writing top-level names to champ_bringup.egg-info/top_level.txt
+[1.136s] writing manifest file 'champ_bringup.egg-info/SOURCES.txt'
+[1.138s] reading manifest file 'champ_bringup.egg-info/SOURCES.txt'
+[1.139s] writing manifest file 'champ_bringup.egg-info/SOURCES.txt'
+[1.168s] Built target ament_cmake_python_build_champ_bringup_egg
+[1.181s] Invoked command in '/home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_bringup' returned '0': AMENT_PREFIX_PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_description:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_description:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ:/opt/ros/humble LD_LIBRARY_PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base/lib:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base/bin:${PATH} PYTHONPATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_bringup -- -j12 -l12
+[1.183s] Invoking command in '/home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_bringup': AMENT_PREFIX_PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_description:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_description:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ:/opt/ros/humble LD_LIBRARY_PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base/lib:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base/bin:${PATH} PYTHONPATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_bringup
+[1.194s] -- Install configuration: ""
+[1.194s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_bringup/share/champ_bringup/launch
+[1.194s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_bringup/share/champ_bringup/launch/joints_gui.launch.py
+[1.194s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_bringup/share/champ_bringup/launch/bringup.launch
+[1.195s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_bringup/share/champ_bringup/launch/bringup.launch.py
+[1.195s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_bringup/share/champ_bringup/launch/include
+[1.195s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_bringup/share/champ_bringup/launch/include/velocity_smoother.launch
+[1.195s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_bringup/share/champ_bringup/launch/include/laser
+[1.196s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_bringup/share/champ_bringup/launch/include/laser/ydlidar.launch
+[1.196s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_bringup/share/champ_bringup/launch/include/laser/d435.launch
+[1.196s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_bringup/share/champ_bringup/launch/include/laser/xv11.launch
+[1.196s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_bringup/share/champ_bringup/launch/include/laser/sim.launch
+[1.196s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_bringup/share/champ_bringup/launch/include/laser/hokuyo.launch
+[1.196s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_bringup/share/champ_bringup/launch/include/laser/rplidar.launch
+[1.197s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_bringup/share/champ_bringup/launch/include/laser/kinect.launch
+[1.197s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_bringup/share/champ_bringup/launch/include/laser/lms1xx.launch
+[1.197s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_bringup/share/champ_bringup/launch/include/laser/realsense.launch
+[1.197s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_bringup/share/champ_bringup/launch/include/laser/sweep.launch
+[1.197s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_bringup/share/champ_bringup/launch/joints_gui.launch
+[1.197s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_bringup/share/champ_bringup/environment/pythonpath.sh
+[1.197s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_bringup/share/champ_bringup/environment/pythonpath.dsv
+[1.198s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_bringup/local/lib/python3.10/dist-packages/champ_bringup-0.1.0-py3.10.egg-info
+[1.198s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_bringup/local/lib/python3.10/dist-packages/champ_bringup-0.1.0-py3.10.egg-info/dependency_links.txt
+[1.198s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_bringup/local/lib/python3.10/dist-packages/champ_bringup-0.1.0-py3.10.egg-info/PKG-INFO
+[1.198s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_bringup/local/lib/python3.10/dist-packages/champ_bringup-0.1.0-py3.10.egg-info/top_level.txt
+[1.198s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_bringup/local/lib/python3.10/dist-packages/champ_bringup-0.1.0-py3.10.egg-info/SOURCES.txt
+[1.198s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_bringup/local/lib/python3.10/dist-packages/champ_bringup
+[1.198s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_bringup/local/lib/python3.10/dist-packages/champ_bringup/joint_calibrator_relay.py
+[1.198s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_bringup/local/lib/python3.10/dist-packages/champ_bringup/__init__.py
+[1.240s] Listing '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_bringup/local/lib/python3.10/dist-packages/champ_bringup'...
+[1.240s] Compiling '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_bringup/local/lib/python3.10/dist-packages/champ_bringup/__init__.py'...
+[1.241s] Compiling '/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_bringup/local/lib/python3.10/dist-packages/champ_bringup/joint_calibrator_relay.py'...
+[1.246s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_bringup/lib/champ_bringup/joint_calibrator_relay.py
+[1.247s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_bringup/share/ament_index/resource_index/package_run_dependencies/champ_bringup
+[1.247s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_bringup/share/ament_index/resource_index/parent_prefix_path/champ_bringup
+[1.247s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_bringup/share/champ_bringup/environment/ament_prefix_path.sh
+[1.247s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_bringup/share/champ_bringup/environment/ament_prefix_path.dsv
+[1.248s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_bringup/share/champ_bringup/environment/path.sh
+[1.248s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_bringup/share/champ_bringup/environment/path.dsv
+[1.248s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_bringup/share/champ_bringup/local_setup.bash
+[1.248s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_bringup/share/champ_bringup/local_setup.sh
+[1.248s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_bringup/share/champ_bringup/local_setup.zsh
+[1.248s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_bringup/share/champ_bringup/local_setup.dsv
+[1.248s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_bringup/share/champ_bringup/package.dsv
+[1.249s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_bringup/share/ament_index/resource_index/packages/champ_bringup
+[1.249s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_bringup/share/champ_bringup/cmake/champ_bringupConfig.cmake
+[1.249s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_bringup/share/champ_bringup/cmake/champ_bringupConfig-version.cmake
+[1.249s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_bringup/share/champ_bringup/package.xml
+[1.252s] Invoked command in '/home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_bringup' returned '0': AMENT_PREFIX_PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_description:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_description:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ:/opt/ros/humble LD_LIBRARY_PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base/lib:/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_base/bin:${PATH} PYTHONPATH=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/pierre/go2_ws/src/unitree-go2-ros2/build/champ_bringup

@@ -1,0 +1,86 @@
+[0.044s] Invoking command in '/home/pierre/go2_ws/src/unitree-go2-ros2/build/champ': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pierre/go2_ws/src/unitree-go2-ros2/champ/champ -DCMAKE_INSTALL_PREFIX=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ
+[0.171s] -- The C compiler identification is GNU 11.4.0
+[0.310s] -- The CXX compiler identification is GNU 11.4.0
+[0.324s] -- Detecting C compiler ABI info
+[0.465s] -- Detecting C compiler ABI info - done
+[0.483s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.483s] -- Detecting C compile features
+[0.484s] -- Detecting C compile features - done
+[0.490s] -- Detecting CXX compiler ABI info
+[0.655s] -- Detecting CXX compiler ABI info - done
+[0.676s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.677s] -- Detecting CXX compile features
+[0.677s] -- Detecting CXX compile features - done
+[0.684s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.035s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.202s] -- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)
+[1.281s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.290s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.307s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.331s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.362s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.441s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.446s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.612s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.668s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.743s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.762s] -- Looking for pthread.h
+[1.857s] -- Looking for pthread.h - found
+[1.858s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.950s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.952s] -- Found Threads: TRUE  
+[2.013s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.092s] -- Configuring done
+[2.097s] -- Generating done
+[2.099s] -- Build files have been written to: /home/pierre/go2_ws/src/unitree-go2-ros2/build/champ
+[2.110s] Invoked command in '/home/pierre/go2_ws/src/unitree-go2-ros2/build/champ' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pierre/go2_ws/src/unitree-go2-ros2/champ/champ -DCMAKE_INSTALL_PREFIX=/home/pierre/go2_ws/src/unitree-go2-ros2/install/champ
+[2.112s] Invoking command in '/home/pierre/go2_ws/src/unitree-go2-ros2/build/champ': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pierre/go2_ws/src/unitree-go2-ros2/build/champ -- -j12 -l12
+[2.164s] Invoked command in '/home/pierre/go2_ws/src/unitree-go2-ros2/build/champ' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pierre/go2_ws/src/unitree-go2-ros2/build/champ -- -j12 -l12
+[2.165s] Invoking command in '/home/pierre/go2_ws/src/unitree-go2-ros2/build/champ': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pierre/go2_ws/src/unitree-go2-ros2/build/champ
+[2.173s] -- Install configuration: ""
+[2.173s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ/include
+[2.173s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ/include/champ
+[2.173s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ/include/champ/kinematics
+[2.174s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ/include/champ/kinematics/kinematics.h
+[2.174s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ/include/champ/leg_controller
+[2.174s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ/include/champ/leg_controller/leg_controller.h
+[2.174s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ/include/champ/leg_controller/trajectory_planner.h
+[2.175s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ/include/champ/leg_controller/phase_generator.h
+[2.175s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ/include/champ/quadruped_base
+[2.175s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ/include/champ/quadruped_base/quadruped_base.h
+[2.175s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ/include/champ/quadruped_base/quadruped_joint.h
+[2.175s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ/include/champ/quadruped_base/quadruped_components.h
+[2.175s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ/include/champ/quadruped_base/quadruped_leg.h
+[2.176s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ/include/champ/LICENSE
+[2.176s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ/include/champ/README.md
+[2.176s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ/include/champ/body_controller
+[2.176s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ/include/champ/body_controller/body_controller.h
+[2.176s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ/include/champ/odometry
+[2.176s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ/include/champ/odometry/odometry.h
+[2.176s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ/include/champ/utils
+[2.177s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ/include/champ/utils/xmlrpc_helpers.h
+[2.177s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ/include/champ/utils/urdf_loader.h
+[2.177s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ/include/champ/geometry
+[2.177s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ/include/champ/geometry/geometry.h
+[2.177s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ/include/champ/macros
+[2.177s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ/include/champ/macros/macros.h
+[2.178s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ/include/champ/bla
+[2.178s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ/include/champ/bla/memory_delegate.h
+[2.178s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ/include/champ/bla/basic_linear_algebra.h
+[2.178s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ/share/ament_index/resource_index/package_run_dependencies/champ
+[2.178s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ/share/ament_index/resource_index/parent_prefix_path/champ
+[2.178s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ/share/champ/environment/ament_prefix_path.sh
+[2.178s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ/share/champ/environment/ament_prefix_path.dsv
+[2.179s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ/share/champ/environment/path.sh
+[2.179s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ/share/champ/environment/path.dsv
+[2.179s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ/share/champ/local_setup.bash
+[2.179s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ/share/champ/local_setup.sh
+[2.179s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ/share/champ/local_setup.zsh
+[2.179s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ/share/champ/local_setup.dsv
+[2.180s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ/share/champ/package.dsv
+[2.180s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ/share/ament_index/resource_index/packages/champ
+[2.180s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ/share/champ/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.180s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ/share/champ/cmake/champConfig.cmake
+[2.180s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ/share/champ/cmake/champConfig-version.cmake
+[2.181s] -- Installing: /home/pierre/go2_ws/src/unitree-go2-ros2/install/champ/share/champ/package.xml
+[2.182s] Invoked command in '/home/pierre/go2_ws/src/unitree-go2-ros2/build/champ' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pierre/go2_ws/src/unitree-go2-ros2/build/champ
